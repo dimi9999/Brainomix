@@ -8,11 +8,16 @@ html,body {
     height:100%;
     background-color:$lightblue;
 }
+body {
+    margin-top:50px;
+}
+.App {
+    text-align: center;
+
 .container {
     display:flex;
-    flex-basis:25%;
-    flex-wrap: wrap;
-    margin:30px auto;
+    flex-direction: column;
+    gap:20px;
     
 
     & .box {
@@ -37,4 +42,5 @@ html,body {
             text-decoration: none;
         }
     }
+}
 }
